@@ -1,0 +1,37 @@
+{
+    "name": "jivtroy/guzzle-xml",
+    "description": "Guzzle XML request and response.",
+    "keywords": ["guzzle", "symfony", "serializer", "xml", "json", "curl", "request", "response"],
+    "type": "library",
+    "homepage": "https://github.com/jivtroy/guzzle-xml",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jiv Troy",
+            "homepage": "https://github.com/jivtroy",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jivtroy/guzzle-xml/issues",
+        "source": "https://github.com/jivtroy/guzzle-xml"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuzzleXml\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GuzzleXml\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/serializer": "^7.0"
+    },
+    "require-dev": {
+        "blastcloud/guzzler": "^2.0"
+    }
+}
